@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>NNPC Prototype Site</title>
+	<link rel = "stylesheet" type = "text/css" href = "nnpc.css">
+	<a href = "Home Page.html">
+<img src = "Home_Page logo.png" alt = "NNPC" length = "60" height = "60">
+</a>
+<br>
+
+<div class ="topnav">
+	<a href = "Home Page.html">Home </a>
+	<a href = "aboutnnpc.html">About NNPC</a>
+	<a href = "nnpcBusiness">NNPC Business</a>
+	<a href = "publicrelations">Public Relations</a>
+	<a href = "investorrelations">Investor Relations</a>
+	<a href = "newsandmedia">News and Media</a>
+	<a href = "corporatesocialresponsibility">Corporate Social Responsibility</a>
+</div>
+</head>
+<body>
+
+
+
+<img name = "slide" width = "400" height = "200">
+
+<h2> Performance Data</h2>
+<a href = "Audited Financial Statements.html"> NNPC Consolidates on Gains, Publishes 2020 Audited Financial Statements...<br>
+	<a href = "Full Report.html"> All Reports </a><br>
+	<p> Summary Report - Mar 2021|Apr 2021</p><br>
+	<p> Full Report - Mar 2021|Apr 2021</p><br>
+<a href = "Full Report.html"> LEARN MORE </a><br>
+<img src = "" width = "" height = "">
+
+<h2> NNPC Bids & Adverts</h2>
+
+<p> For opportunities to bid for NNPC projects and services...</p>
+<a href = "Bids and Adverts.html"> Bid Response Reports </a><br>
+<a href = "Bids and Adverts.html"> LEARN MORE </a><br>
+<img src = "" width = "" height = "">
+
+<h2> HSE Policy </h2>
+<p>In line with our Group of Health, Safety and Environment (HSE) Policy ststement, NNPC is committed to conducting its activities...</p><br>
+<a href = "Health Safety and Environment.html"> LEARN MORE </a><br>
+<img src = "" width = "" height = "">
+
+
+
+<img src = "" width = "" height = "">
+
+<h3> Newsletter </h3>
+<p>Receive our latest news</p><br>
+
+<form>
+	Enter your E-mail:
+</form>
+<h3> Socialize</h3>
+<p> Follow us </p>
+
+<h3> For More Information</h3>
+<h4> Call us today </h4>
+<h5> +234 9 460 81000</h5>
+<a href = ""> <h3> Click Here to contact us</h3></a>
+
+
+
+
+<script type = "text/javascript">
+ var i = 0;
+ var images = [];
+ var time = 3000;
+
+ images [0] = 'images1.jpg';
+ images [1] = 'images2.jpg';
+ images [2] = 'images3.jpg';
+ images [3] = 'images4.jpg';
+
+ function changeImg() {
+
+document.slide.src = images[i];
+
+
+if(i < images.length - 1){
+
+i++;
+
+}else{
+	i = 0;
+}
+
+setTimeout(changeImg, 3000);
+ }
+
+window.onload = changeImg;
+changeImg()
+	
+
+
+
+</script>
+
+
+
+<script type="text/javascript">
+	
+	 var i = 0;
+ var images = [];
+ var time = 3000;
+
+ images [0] = 'images1.jpg';
+ images [1] = 'images2.jpg';
+ images [2] = 'images3.jpg';
+ images [3] = 'images4.jpg';
+
+ function ChangeImg() {
+
+document.slide.src = images[i];
+
+if(i < images.length - 1){
+
+i++;
+
+}else{
+	i = 0;
+}
+
+setTimeout("ChangeImg", time);
+
+
+ }
+
+window.onload = ChangeImg;
+
+</script>
+</body>
+</html>
